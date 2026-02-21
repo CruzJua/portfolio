@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Juan Cruz">
+    <meta name="description" content="Juan Cruz — AI Engineering student at Neumont College. Full-stack developer, machine learning practitioner, and software engineer.">
+    <title>Juan Cruz | Portfolio</title>
+    <link id="stylesheet" rel="stylesheet" href="./css/style.css">
+    <script src="./js/theme.js"></script>
+    <script src="./js/animate.js"></script>
+</head>
+
+<body>
+    <div class="nav-container" id="nav-container">
+        <button class="theme-toggle" id="theme-toggle"></button>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#about-me"><button class="nav-button">About Me</button></a>
+            <a href="#projects"><button class="nav-button">Projects</button></a>
+            <a href="#skills"><button class="nav-button">Skills</button></a>
+            <a href="#contact"><button class="nav-button">Contact</button></a>
+        </nav>
+    </div>
+
+    <main class="container">
+
+        <!-- ===== About Me ===== -->
+        <section id="about-me">
+            <h1>Welcome</h1>
+            <article id="main-biography">
+                <p>
+                    Hello, my name is <em>Juan Cruz</em>. I am an <strong>AI Engineering</strong> student
+                    at <strong>Neumont College of Computer Science</strong>, where I am developing deep
+                    expertise in machine learning, intelligent systems, full-stack web development, and
+                    modern software engineering practices.
+                </p>
+                <p>
+                    On the web development side, I design and deploy full-stack applications using
+                    <strong>Node.js</strong> and <strong>Express</strong> with <strong>MongoDB</strong>
+                    for data persistence, one of which is currently live on
+                    <strong>Render</strong>. I am comfortable working across the entire stack, from
+                    designing RESTful APIs and database schemas to crafting responsive front-end interfaces.
+                    I also containerize my development environments using <strong>Docker</strong>, keeping
+                    deployments consistent and reproducible.
+                </p>
+                <p>
+                    In the machine learning space, I have worked with regression, classification, and
+                    clustering algorithms using <strong>scikit-learn</strong>, <strong>pandas</strong>,
+                    and <strong>NumPy</strong>, applying these models to real-world public datasets from
+                    Kaggle and sklearn. I am passionate about the intersection of data, intelligent systems,
+                    and practical software, and I am actively seeking opportunities to grow in this space.
+                </p>
+            </article>
+            <img class="selfie" id="selfie" src="./images/slide0.jpg" alt="Photo of Juan Cruz">
+        </section>
+
+        <hr>
+
+        <!-- ===== Projects ===== -->
+        <section id="projects">
+            <h1>My Projects</h1>
+
+            <!-- Full-Stack Web Apps -->
+            <div class="project-info" id="projects-fullstack">
+                <h3>Full-Stack Web Applications</h3>
+                <div class="project-container">
+
+                    <div class="project">
+                        <h5>Gig Tracker <span class="deploy-badge">&#127758; Live on Render</span></h5>
+                        <p>
+                            A full-stack gig tracking web application built with <strong>Node.js</strong>
+                            and <strong>Express</strong>, backed by a <strong>MongoDB</strong> database.
+                            Features full CRUD operations on gigs, and a clean responsive front-end.
+                            Deployed to <strong>Render</strong> with environment-based configuration.
+                        </p>
+                        <a href="https://github.com/CruzJua/GigTracker" target="_blank">
+                            <img src="./images/GigTracker.png" class="project-img" alt="Gig Tracker App screenshot">
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <h5>Inventory Tracker+ <span class="deploy-badge">&#127758; Live on Render</span> <span class="wip-badge">&#9881; In Progress</span></h5>
+                        <p>
+                            A full-stack inventory management application currently in active development.
+                            Built with <strong>Node.js</strong> and <strong>Express</strong>, using
+                            <strong>EJS</strong> templates for server-side rendering. The application
+                            follows a <strong>monolithic</strong> architecture where a single root file
+                            coordinates both frontend and backend routes independently, establishing a
+                            clean separation between the <strong>API layer</strong> and the
+                            <strong>Data Access Layer (DAL)</strong>, this is a pattern shared with the Gig
+                            Tracker. Data is persisted in <strong>MongoDB</strong> and the
+                            app is deployed on <strong>Render</strong>.
+                        </p>
+                        <a href="https://github.com/CruzJua/InventoryTrackerPlus" target="_blank">
+                            <img src="./images/invTracker.png" class="project-img" alt="Inventory Tracker+ screenshot">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Machine Learning Projects -->
+            <div class="project-info" id="projects-ml">
+                <h3>Machine Learning &amp; AI</h3>
+                <div class="project-container">
+
+                    <div class="project">
+                        <h5>Predictive Modeling with Regression &amp; Classification</h5>
+                        <p>
+                            Applied supervised learning techniques to public datasets, sourced from
+                            <strong>Kaggle</strong> for a class assignment. Implemented and compared
+                            multiple models including logistic regression, random forests, Decision Trees,
+                            K-Nearest Neighbors, and MLP classifiers evaluating performance with metrics such as
+                            accuracy, precision, recall, and F1-score. Preprocessing pipelines were built
+                            using <strong>pandas</strong> and <strong>NumPy</strong> to handle missing
+                            data, feature scaling, and encoding.
+                        </p>
+                        <a href="https://github.com/CruzJua" target="_blank">
+                            <img src="./images/classification.png" class="project-img" alt="ML Classification project">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Earlier Projects -->
+            <div class="project-info" id="projects-foundational">
+                <h3>Foundational Projects</h3>
+                <div class="project-container">
+
+                    <div class="project">
+                        <h5>Scrambler — Encryption Engine</h5>
+                        <p>
+                            A cryptography-focused Java application implementing classical encryption
+                            algorithms, including Caesar cipher and substitution-based methods, to encrypt
+                            and decrypt arbitrary text. Built during my first programming course, this
+                            project established my foundation in string manipulation, modular code design,
+                            and algorithmic thinking.
+                        </p>
+                        <a href="https://github.com/CruzJua/Scrambler" target="_blank">
+                            <img src="./images/Scrambler.png" class="project-img" alt="Scrambler encryption project screenshot">
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <h5>Image Manipulation Tool</h5>
+                        <p>
+                            A Python command-line utility for pixel-level image processing, supporting
+                            grayscale conversion, brightness adjustment, color channel filtering, and
+                            edge detection. Originally a course assignment, this tool has grown into a
+                            personal utility I continue to refine. It reflects my interest in applied
+                            algorithms and software that solves tangible problems.
+                        </p>
+                        <a href="https://github.com/CruzJua/ImageManipulation" target="_blank">
+                            <img src="./images/ImageManipulation.png" class="project-img" alt="Image Manipulation Tool screenshot">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!-- ===== Skills ===== -->
+        <section id="skills">
+            <h1>My Skills</h1>
+            <div class="skill-grid">
+
+                <article class="skill-info">
+                    <h3>Machine Learning &amp; AI</h3>
+                    <p>
+                        Hands-on experience with supervised and unsupervised learning using
+                        <strong>scikit-learn</strong>. Have trained, tuned, and evaluated regression,
+                        classification, and clustering models on real-world datasets from Kaggle and
+                        sklearn. Proficient in the full ML workflow including data exploration, preprocessing,
+                        feature engineering, model selection, and evaluation using metrics like
+                        accuracy, F1-score, and RMSE.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Regression</span>
+                        <span class="skill-tag">Classification</span>
+                        <span class="skill-tag">Clustering</span>
+                    </div>
+                </article>
+
+                <article class="skill-info">
+                    <h3>Full-Stack Web Development</h3>
+                    <p>
+                        Experienced in building and deploying complete web applications using
+                        <strong>Node.js</strong> and <strong>Express</strong> on the back end, with
+                        <strong>MongoDB</strong> for data persistence. Comfortable
+                        designing RESTful APIs, managing authentication flows, and connecting front-end
+                        interfaces to back-end services. Have deployed multiple projects to production
+                        on <strong>Render</strong>.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Render</span>
+                    </div>
+                </article>
+
+                <article class="skill-info">
+                    <h3>MongoDB &amp; NoSQL Databases</h3>
+                    <p>
+                        Practical experience designing and querying NoSQL databases using
+                        <strong>MongoDB</strong>. Skilled in schema design with Mongoose, building
+                        aggregation pipelines, managing document relationships, and optimizing queries
+                        for full-stack applications. I understand when a document-based model is the
+                        right fit and how to structure data effectively within that paradigm.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Mongoose</span>
+                        <span class="skill-tag">NoSQL</span>
+                        <span class="skill-tag">Aggregation</span>
+                        <span class="skill-tag">Schema Design</span>
+                    </div>
+                </article>
+
+                <article class="skill-info">
+                    <h3>Docker &amp; Containerization</h3>
+                    <p>
+                        Use <strong>Docker</strong> to containerize applications, ensuring consistent
+                        environments across development and production. Familiar with writing
+                        Dockerfiles, managing multi-service setups, and integrating containerization
+                        into full-stack deployment workflows.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Dockerfile</span>
+                        <span class="skill-tag">Containerization</span>
+                        <span class="skill-tag">DevOps</span>
+                    </div>
+                </article>
+
+                <article class="skill-info">
+                    <h3>Python</h3>
+                    <p>
+                        Python is my primary language for data work and automation. I have applied it
+                        extensively in machine learning pipelines, data analysis, and scripting.
+                        Proficient with the scientific Python ecosystem and comfortable building both
+                        quick utilities and structured, multi-module projects.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Scripting</span>
+                        <span class="skill-tag">Automation</span>
+                        <span class="skill-tag">Jupyter</span>
+                    </div>
+                </article>
+
+                <article class="skill-info">
+                    <h3>Languages</h3>
+                    <p>
+                        Fluent in both <strong>English</strong> and <strong>Spanish</strong>, with
+                        professional written and verbal communication skills in both. Currently
+                        relearning <strong>French</strong>. Multilingual communication is an asset
+                        I bring to collaborative and international environments.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">English</span>
+                        <span class="skill-tag">Spanish</span>
+                        <span class="skill-tag">French (learning)</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact">
+            <h1>Get In Touch</h1>
+            <span class="availability-badge">&#9679; Available for Opportunities</span>
+            <p class="contact-tagline">
+                Whether you have an internship opportunity, a project idea, or just want to connect —
+                my inbox is always open. I look forward to hearing from you.
+            </p>
+
+            <div class="contact-card-grid">
+                <a class="contact-card" href="mailto:tonocruz9000@gmail.com" target="_blank">
+                    <span class="contact-card-icon">&#9993;</span>
+                    <div class="contact-card-text">
+                        <strong>Email</strong>
+                        <span>tonocruz9000@gmail.com</span>
+                    </div>
+                </a>
+
+                <a class="contact-card" href="https://github.com/CruzJua" target="_blank">
+                    <span class="contact-card-icon">
+                        <img src="./images/github.svg" class="contact-icon" alt="GitHub">
+                    </span>
+                    <div class="contact-card-text">
+                        <strong>GitHub</strong>
+                        <span>github.com/CruzJua</span>
+                    </div>
+                </a>
+
+                <a class="contact-card" href="https://www.linkedin.com/in/juan-cruz-b5b8272b2/" target="_blank">
+                    <span class="contact-card-icon">&#128101;</span>
+                    <div class="contact-card-text">
+                        <strong>LinkedIn</strong>
+                        <span>linkedin.com/in/juan-cruz</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
