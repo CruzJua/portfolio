@@ -2,7 +2,7 @@
     --Background-Color: #051c38;
     --Text-Color: #e6d3ab;
     --Accent-Color: #34617f;
-    --Border-Color: #05f4922f; 
+    --Border-Color: #05f4922f;
     --Visited-Text: #55f5ff;
     --Link-Text: #35b7d1;
 }
@@ -20,9 +20,12 @@ body.light-theme {
 }
 
 /* ===== Global Typography ===== */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
 }
+
 p {
     text-indent: 15px;
 }
@@ -33,26 +36,24 @@ body {
     color: var(--Text-Color);
     justify-content: center;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 article {
     padding: 15px;
     position: relative;
 }
-footer {
-    justify-items: end;
-    margin: 0 1cqb 0 0;
-}
-ul {
-    text-align: left;
-}
+
 a:link {
     color: var(--Link-Text);
 }
+
 a:visited {
     color: var(--Visited-Text);
 }
+
 img {
     display: block;
     margin-left: auto;
@@ -60,10 +61,12 @@ img {
     padding-bottom: 12px;
     width: 40%;
 }
+
 section {
     padding-top: 80px;
     min-height: 100vh;
 }
+
 header {
     background-color: var(--Accent-Color);
     padding: 2px;
@@ -98,14 +101,13 @@ header {
     padding: 0.5rem 1rem;
     align-content: center;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 3rem 0 0 0;
-}
+
 .navbar {
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
 }
+
 .nav-button {
     background: transparent;
     border: none;
@@ -115,20 +117,25 @@ nav {
     cursor: pointer;
     transition: background 0.3s;
 }
+
 .nav-button:hover {
     background: var(--Text-Color);
     transition: background 0.3s;
     color: var(--Background-Color);
 }
+
 .shadow {
     background-color: var(--Accent-Color);
 }
+
 .shadow div {
     background-color: var(--Accent-Color);
 }
+
 .shadow .nav-button {
     background-color: var(--Background-Color);
 }
+
 .shadow .nav-button:hover {
     background-color: var(--Text-Color);
 }
@@ -147,6 +154,7 @@ nav {
     cursor: pointer;
     transition: background 0.3s;
 }
+
 .theme-toggle:hover {
     background-image: url("../images/lightModeIcon.svg");
     background-position: center;
@@ -155,6 +163,7 @@ nav {
     background-color: transparent;
     transition: background 0.3s;
 }
+
 .light-toggle {
     background-image: url("../images/lightModeIcon.svg");
     background-position: center;
@@ -163,6 +172,7 @@ nav {
     background-color: transparent;
     transition: background 0.3s;
 }
+
 .light-toggle:hover {
     background-image: url("../images/darkModeIcon.svg");
     background-position: center;
@@ -189,12 +199,14 @@ nav {
     border-radius: 1.7rem;
     margin: 1rem;
 }
+
 .project-container {
     border-top: #05f4922f solid;
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
 }
+
 .project {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 6px;
@@ -205,12 +217,14 @@ nav {
     min-height: 25%;
     text-align: left;
 }
+
 .project p {
     font-size: small;
     text-indent: 0;
     width: 80%;
     position: relative;
 }
+
 .deploy-badge {
     display: inline-block;
     background-color: #0c3a57;
@@ -223,6 +237,7 @@ nav {
     vertical-align: middle;
     margin-left: 0.4rem;
 }
+
 .wip-badge {
     display: inline-block;
     background-color: #3a2e05;
@@ -243,12 +258,14 @@ nav {
     border-radius: 1.7rem;
     margin: 1rem;
 }
+
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
     padding: 0 15px 14px 15px;
 }
+
 .skill-tag {
     background-color: #0c3a57;
     color: #35b7d1;
@@ -273,6 +290,7 @@ nav {
     letter-spacing: 0.04em;
     margin-bottom: 1rem;
 }
+
 .contact-tagline {
     max-width: 520px;
     margin: 0 auto 2rem auto;
@@ -280,6 +298,7 @@ nav {
     line-height: 1.6;
     opacity: 0.85;
 }
+
 .contact-card-grid {
     display: flex;
     flex-wrap: wrap;
@@ -287,6 +306,7 @@ nav {
     gap: 1.5rem;
     padding: 1rem 2rem 3rem 2rem;
 }
+
 .contact-card {
     display: flex;
     align-items: center;
@@ -300,12 +320,14 @@ nav {
     min-width: 260px;
     transition: background 0.25s, border-color 0.25s, transform 0.2s;
 }
+
 .contact-card:hover {
     background: var(--Accent-Color);
     border-color: var(--Text-Color);
     transform: translateY(-3px);
     color: var(--Text-Color);
 }
+
 .contact-card-icon {
     font-size: 2rem;
     line-height: 1;
@@ -313,6 +335,7 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .contact-icon {
     display: inline-block;
     width: 2rem;
@@ -321,19 +344,43 @@ nav {
     padding: 0;
     margin: 0;
 }
+
 .contact-card-text {
     display: flex;
     flex-direction: column;
     text-align: left;
     color: var(--Text-Color);
 }
+
 .contact-card-text strong {
     font-size: 1rem;
     margin-bottom: 0.15rem;
 }
+
 .contact-card-text span {
     font-size: 0.8rem;
     opacity: 0.75;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+    .container {
+        width: 92%;
+        margin: 6rem auto;
+        border-radius: 1.2rem;
+    }
+
+    .contact-card-grid {
+        padding: 0.75rem 1rem 2rem 1rem;
+        gap: 0.9rem;
+    }
+
+    .contact-card {
+        min-width: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.9rem 1.2rem;
+    }
 }
 
 /* ===== Print Style ===== */
@@ -341,6 +388,7 @@ nav {
     .theme-toggle {
         display: none;
     }
+
     body {
         background: white;
         color: black;
