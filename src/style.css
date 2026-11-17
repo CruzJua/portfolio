@@ -148,7 +148,7 @@ header {
 
 .theme-toggle {
     background-color: transparent;
-    background-image: url("../images/darkModeIcon.svg");
+    background-image: url("/images/darkModeIcon.svg");
     background-position: center;
     background-size: 2.75rem;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@ header {
 }
 
 .theme-toggle:hover {
-    background-image: url("../images/lightModeIcon.svg");
+    background-image: url("/images/lightModeIcon.svg");
     background-position: center;
     background-size: 2.75rem;
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ header {
 }
 
 .light-toggle {
-    background-image: url("../images/lightModeIcon.svg");
+    background-image: url("/images/lightModeIcon.svg");
     background-position: center;
     background-size: 2.75rem;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ header {
 }
 
 .light-toggle:hover {
-    background-image: url("../images/darkModeIcon.svg");
+    background-image: url("/images/darkModeIcon.svg");
     background-position: center;
     background-size: 2.75rem;
     background-repeat: no-repeat;
