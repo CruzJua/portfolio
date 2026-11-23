@@ -24,7 +24,7 @@ export default function App() {
         title="Juan's Portfolio Agent"
         greeting="Are there any questions about Juan I can help you with?"
         position="right"
-        accentColor="#0b6e4f"
+        accentColor="#34617f"
       />
     </>
   )
