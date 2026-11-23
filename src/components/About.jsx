@@ -16,25 +16,30 @@ export default function About() {
       <article id="main-biography">
         <p>
           Hello, my name is <em>Juan Cruz</em>. I am an <strong>AI Engineering</strong> student
-          at <strong>Neumont College of Computer Science</strong>, where I am developing deep
-          expertise in machine learning, intelligent systems, full-stack web development, and
-          modern software engineering practices.
+          at <strong>Neumont College of Computer Science</strong>, where I build intelligent,
+          production-minded software: LLM-powered apps, computer vision models, and the
+          full-stack systems that put them in users' hands.
         </p>
         <p>
-          On the web development side, I design and deploy full-stack applications using
-          <strong> Node.js</strong> and <strong>Express</strong> with <strong>MongoDB</strong>
-          {' '}for data persistence, one of which is currently live on
-          {' '}<strong>Render</strong>. I am comfortable working across the entire stack, from
-          designing RESTful APIs and database schemas to crafting responsive front-end interfaces.
-          I also containerize my development environments using <strong>Docker</strong>, keeping
-          deployments consistent and reproducible.
+          My capstone, <strong>OwnHelp</strong> (in progress), is a self-hosted customer-support
+          assistant: a fine-tuned <strong>Llama</strong> model with <strong>RAG</strong> that
+          businesses run on their own hardware and add to their site with a chat widget. My
+          other recent work centers on AI applications too. <strong>StockSense</strong>, which is live,
+          uses <strong>GPT-4o Vision</strong> and <strong>pgvector</strong> semantic search to turn a
+          photo of a fridge into a searchable inventory. With a team, I built{' '}
+          <strong>NeuroScan AI</strong>, which classifies brain tumors from MRI scans using{' '}
+          <strong>PyTorch</strong> CNN, ViT, and ConvNeXt models served through{' '}
+          <strong>FastAPI</strong>. I have also built a tool-calling agent on the{' '}
+          <strong>Claude API</strong> with guardrails such as iteration caps and user confirmation
+          for destructive actions.
         </p>
         <p>
-          In the machine learning space, I have worked with regression, classification, and
-          clustering algorithms using <strong>scikit-learn</strong>, <strong>pandas</strong>,
-          {' '}and <strong>NumPy</strong>, applying these models to real-world public datasets from
-          Kaggle and sklearn. I am passionate about the intersection of data, intelligent systems,
-          and practical software, and I am actively seeking opportunities to grow in this space.
+          I am comfortable across the whole stack: <strong>React</strong>, <strong>Next.js</strong>,
+          {' '}<strong>Node.js</strong>, and <strong>Flutter</strong> on the front end, backed by{' '}
+          <strong>PostgreSQL/Supabase</strong> or <strong>MongoDB</strong>, and shipped with{' '}
+          <strong>Docker</strong> to platforms like Render and Cloudflare. I have also built and
+          deployed a live online shop for my mother's clothing business. I am actively seeking
+          opportunities to grow in AI engineering.
         </p>
       </article>
       <img

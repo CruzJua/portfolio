@@ -21,9 +21,24 @@ export default function Projects() {
                   ))}
                 </h5>
                 <p>{p.description}</p>
-                <a href={p.href} target="_blank" rel="noreferrer">
-                  <img src={p.image} className="project-img" alt={p.alt} />
-                </a>
+                {p.image && (
+                  <a href={p.href} target="_blank" rel="noreferrer">
+                    <img src={p.image} className="project-img" alt={p.alt} />
+                  </a>
+                )}
+                <p className="project-links">
+                  <a href={p.repo ?? p.href} target="_blank" rel="noreferrer">
+                    GitHub repository →
+                  </a>
+                  {p.repo && (
+                    <>
+                      {' · '}
+                      <a href={p.href} target="_blank" rel="noreferrer">
+                        Live site →
+                      </a>
+                    </>
+                  )}
+                </p>
               </div>
             ))}
           </div>
